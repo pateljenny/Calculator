@@ -93,8 +93,8 @@ class App extends Component {
       <div className="App">
 
         <Display data={this.state.operations} />
-        <Buttons>
-          <Button onClick={this.handleClick} onKeyPress={this.onKeyPress} label="C" value="clear" />
+        <Buttons >
+          <Button onClick={this.handleClick} onKeyPress={this.onKeyPress} label="C" value="clear" className="clear" />
           <Button onClick={this.handleClick} onKeyPress={this.onKeyPress} label="7" value="7" />
           <Button onClick={this.handleClick} onKeyPress={this.onKeyPress} label="4" value="4" />
           <Button onClick={this.handleClick} onKeyPress={this.onKeyPress} label="1" value="1" />

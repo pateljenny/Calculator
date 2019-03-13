@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
 body {
-  background: #EBEBEB;
+  background:#ff80ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
   height: 400px;
   width: 300px;
   perspective: 0 200px;
-  background: #EBEBEB;
+  background: #ff80ff;
   transform: scale(0.8) skew(20deg);
   transition: transform .5s ease .5s;
   position: relative;
@@ -38,7 +38,7 @@ body {
 .App::before {
   position: absolute;
   content: '';
-  background: #bdc7b7;
+  background:#ff80ff;
   width: 100%;
   height: 10px;
   top: 100%;
@@ -55,7 +55,7 @@ body {
 .App::after {
   position: absolute;
   content: '';
-  background: #d7ddd3;
+  background:#ff80ff;
   width: 10px;
   height: 100%;
   bottom: 0;
@@ -70,7 +70,7 @@ body {
 }
 
 .Display {
-  background: #2B293D;
+  background:#660066;
   color: #59C3C3;
   text-shadow: 0 0 5px rgba(89, 195, 195, 0.5);
   display: flex;
@@ -86,7 +86,7 @@ body {
 
 .Display::after {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
-  background: white;
+  background: #ff80ff;
   /* Old browsers */
   background: -moz-linear-gradient(top, white 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
   /* FF3.6-15 */
@@ -116,7 +116,7 @@ body {
 }
 
 .Button {
-  background: #cad2c5;
+  background: #ff80ff;
   /* Old browsers */
   background: -moz-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
   /* FF3.6-15 */
@@ -147,10 +147,10 @@ body {
 }
 
 .Button:hover {
-  background: #d7ddd3;
+  background: #ff80ff;
   cursor: pointer;
 }
 
 .Button:active {
-  background: #bdc7b7;
+  background:#ff80ff;
 }
